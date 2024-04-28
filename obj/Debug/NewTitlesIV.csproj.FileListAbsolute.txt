@@ -1,0 +1,6 @@
+E:\Global Repository\GitHub Repository\NewTitlesIV\obj\Debug\NewTitlesIV.csproj.AssemblyReference.cache
+E:\Global Repository\GitHub Repository\NewTitlesIV\obj\Debug\NewTitlesIV.csproj.CoreCompileInputs.cache
+E:\Global Repository\GitHub Repository\NewTitlesIV\bin\Debug\NewTitlesIV.net.dll
+E:\Global Repository\GitHub Repository\NewTitlesIV\bin\Debug\NewTitlesIV.net.pdb
+E:\Global Repository\GitHub Repository\NewTitlesIV\obj\Debug\NewTitlesIV.net.dll
+E:\Global Repository\GitHub Repository\NewTitlesIV\obj\Debug\NewTitlesIV.net.pdb
