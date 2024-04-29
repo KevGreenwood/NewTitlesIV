@@ -19,6 +19,7 @@ namespace NewTitlesIV
         {
             base.Interval = 10;
             this.Tick += MainClass_Tick;
+            
             MissionPassedTexture = new Texture(File.ReadAllBytes(".\\scripts\\NewTitlesIV\\missionpassed.png"));
             WastedTexture = new Texture(File.ReadAllBytes(".\\scripts\\NewTitlesIV\\wasted.png"));
             BustedTexture = new Texture(File.ReadAllBytes(".\\scripts\\NewTitlesIV\\busted.png"));
@@ -41,6 +42,7 @@ namespace NewTitlesIV
             {
                 if (GTA.Native.Function.Call<bool>("IS_PLAYER_BEING_ARRESTED", new GTA.Native.Parameter("")))
                 {
+                    // Wait for checking if the player has been arrested
                     this.Wait(3250);
                     base.PerFrameDrawing += DrawBustedTexture;
                     this.Wait(2500);
@@ -52,7 +54,6 @@ namespace NewTitlesIV
                     this.Wait(duration);
                     base.PerFrameDrawing -= DrawWastedTexture;
                 }
-
                 // Only for IV & TLAD
                 if (GTA.Native.Function.Call<bool>("IS_MISSION_COMPLETE_PLAYING", new GTA.Native.Parameter("")))
                 {
